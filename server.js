@@ -1,3 +1,6 @@
+// Custom Next.js production server for Node.js hosting under Phusion Passenger
+// (Hostinger hPanel "Setup Node.js App" → Application startup file = server.js).
+// Requires `next build` to have run first (serves the built .next output).
 const { createServer } = require("http");
 const { parse } = require("url");
 const next = require("next");
